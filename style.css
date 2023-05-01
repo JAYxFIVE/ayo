@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@100&display=swap');
+
+* {
+    font-family: 'Ysabeau', 'sans-serif';
+}
+
+body {
+    margin: 0px;
+}
+
+.content {
+    margin-left: 200px;
+    padding-left: 30px;
+}
+
+.sidebar-container {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+.sidebar-links {
+    list-style-type: none;
+}
+
+.sidebar-links li {
+    padding-bottom: 30px;
+}
+
+.sidebar-links a {
+    color: white;
+}
+
+.title-name {
+    color: rgb(214, 103, 103);
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.title-pic {
+    margin-left: 200px;
+}
+
+.title-pic img {
+    width: 1700px;
+    height: 750px;
+
+}
+
+#bio-content {
+    margin: 25px;
+    padding: 0px 300px;
+}
+
+#bio-content > p {
+    color: rgb(46, 116, 80);
+}
+
+
+@media (min-width: 380px) and (max-width: 700px) {
+    .title-pic img {
+        width: 100%;
+    }
+
+    .content {
+        display: none;
+    }
+}
